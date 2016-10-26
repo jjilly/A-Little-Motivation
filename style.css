@@ -1,4 +1,4 @@
-﻿html, body {
+html, body {
   margin: 0;
   padding-top:
 }
@@ -10,13 +10,18 @@
   width:100%;
   background-color:#000211;
   z-index:1000;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 li{
   color:#FFF;
   display:inline-block;
-  padding:10px 60px 10px 60px;
+  padding:10 60 10 60;
   font-size:15;
-  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+a{ 
+    font-size:12;
+    color:#FFFFFF;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 li:hover {
   text-decoration: underline;
@@ -30,11 +35,12 @@ h1{
 }
 h2{
   font-family: 'Oswald', sans-serif;
-  font-size:20pt;
+  font-size:35pt;
   text-transform: uppercase;
 }
-p,a{
+p{
   font-family: Arial,sans-serif;
+  font-size:28pt;
   text-transform:lowercase;
   padding: 20px 20px 20px 20px;
 }
